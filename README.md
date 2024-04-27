@@ -1,1 +1,0 @@
-https://github.com/aaaaaaaaaaa11111111111/ono-tebe-nado
