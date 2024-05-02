@@ -27,6 +27,7 @@
 .header__menu-item {
     font-weight: 400;
     font-size: 18px;
+    
 }
 
 .header__menu-link {
@@ -37,9 +38,12 @@
     text-decoration: none;
 }
 
+.header__menu-item_no-bullit{
+    list-style-type: none;
+}
+
 .header__logo {
     width: 135px;
-    display: block;
     margin-left: -145px;
 }
 
@@ -48,5 +52,124 @@
     font-size: 18px;
     line-height: 1.35;
     font-style: normal;
-    
 }
+.cover {
+    padding: 165px 50px 51px;
+    min-height: 757px;
+    background-image: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.6;
+    inset: 0;
+    z-index: 1;
+}
+
+.cover__title {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+ .aligned-text {
+    margin-bottom: 10px;
+ }
+
+ .aligned-text_center {
+    text-align: center;
+ }
+
+ .aligned-text_right {
+    text-align: right;
+    line-height: 1;
+ }
+
+.spacefirst {
+    letter-spacing: 7px;
+}
+
+.spacesecond {
+    letter-spacing: 58px;
+}
+.spacethird {
+    letter-spacing: 32px
+}
+.spacefourth {
+    letter-spacing: 64px;
+}
+
+.spacefifth {
+    letter-spacing: 36px;
+}
+
+.spacesixth {
+    letter-spacing: 6px;
+}
+
+.spaceseventh {
+    letter-spacing: 6px;
+}
+ .nospace {
+    letter-spacing: 0;
+ }
+
+ .cover__description {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 135px;
+    padding-left: 32px;
+ }
+
+ .cover__description-text {
+    color:#fff;
+    word-spacing: 18px;
+    font-size: 22px;
+    line-height: 1.27273;
+    text-transform: uppercase;
+    font-weight: 400;
+    align-self: center;
+    
+ }
+
+ .bet-button {
+    background-color: transparent;
+    width: 256px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+ }
+
+ .lots {
+    padding: 179px 24px 0;
+    background-color: brown;
+ }
+
+ .lots__heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    margin-left: 40px;
+ }
