@@ -32,11 +32,11 @@
     font-size: 18px;
 }
 
-.header__menu-item__active .header__menu-link {
+.header__menu-item_active .header__menu-link {
     text-decoration: none;
 }
 
-.header__menu-item_no-bullit{
+.header__menu-item_no-bullit {
     list-style-type: none;
 }
 
@@ -328,5 +328,6 @@
 }
 
 .footer__social-link {
+    height: 100%;
     width: 100%;
 }
