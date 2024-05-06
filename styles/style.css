@@ -62,8 +62,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #000;
-  opacity: 0.6;
+  background-color: rgb(0 0 0/ 0.6);
   inset: 0;
   z-index: 1;
 }
@@ -90,31 +89,31 @@
   text-align: right;
 }
 
-.spacefirst {
+.cover__letter-space-first {
   letter-spacing: 7px;
 }
 
-.spacesecond {
+.cover__letter-space-second {
   letter-spacing: 58px;
 }
 
-.spacethird {
+.cover__letter-space-third {
   letter-spacing: 32px;
 }
 
-.spacefourth {
+.cover__letter-space-fourth {
   letter-spacing: 64px;
 }
 
-.spacefifth {
+.cover__letter-space-fifth {
   letter-spacing: 36px;
 }
 
-.spacesixth {
+.cover__letter-space-sixth {
   letter-spacing: 6px;
 }
 
-.nospace {
+.cover__letter-nospace {
   letter-spacing: 0;
 }
 
