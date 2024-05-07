@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 24px 94px 24px;
+  padding: 92px 24px 94px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -266,7 +266,7 @@
 }
 
 .footer {
-  margin-top: 177px;
+  margin-top: 178px;
   padding: 0 50px 91px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
